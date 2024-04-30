@@ -1,0 +1,32 @@
+body{
+    background-image: url(coracao2.png);
+
+    background-repeat: repeat;
+    height: 98vh;
+    background-position: center center;
+    
+}
+
+#msg{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 10px;
+    height: 150px;
+    width: 150px;
+    border:  2px black dashed;
+    box-shadow: 10px rgba(0, 0, 0, 0.808);
+
+}
+
+.div-flex {
+
+    display: flex;
+    
+    align-items: center;
+    
+    justify-content: center;
+    
+    }
